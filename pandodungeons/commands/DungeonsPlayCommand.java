@@ -49,7 +49,7 @@ public class DungeonsPlayCommand implements CommandExecutor {
         player.teleport(dungeonLocation);
         player.sendMessage("¡Has sido teletransportado a una dungeon en el mundo 'dungeons'!");
 
-    
+        //pone piedra abajo xd
         Block block = dungeonLocation.subtract(0, 1, 0).getBlock();
         block.setType(Material.STONE);
 
